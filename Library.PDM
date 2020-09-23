@@ -1,0 +1,93 @@
+[Root]
+Most Recent Package=Library Setup Package 1
+
+
+[Package|Library Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\TEMP\Setup
+
+[Package|Library Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Library Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Library Setup Package 1|Files Found]
+
+[Package|Library Setup Package 1|Files Released]
+
+[Package|Library Setup Package 1|Missing Dependency Information]
+
+[Package|Library Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Mscomctl.ocx=
+
+[Package|Library Setup Package 1|Files Added]
+D:\Projects\Homemade\Library\RecordLibraryNew.mdb=
+
+[Package|Library Setup Package 1|Files Removed]
+
+[Package|Library Setup Package 1|Files In Project]
+D:\Projects\Homemade\Library\Library.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\Mscomctl.ocx=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Projects\Homemade\Library\RecordLibraryNew.mdb=Yes
+
+[Package|Library Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Library Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Library Setup Package 1|Install Locations]
+D:\Projects\Homemade\Library\Library.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\Homemade\Library\RecordLibraryNew.mdb=$(AppPath)
+
+[Package|Library Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Homemade\Library\Library.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projects\Homemade\Library\RecordLibraryNew.mdb=No
+
+[Package|Library Setup Package 1|Distribution]
+Type=single
+Size=1.44 MB
+Title=Record Library v1.0
+
+[Package|Library Setup Package 1|Package]
+PackageFolder=c:\TEMP\Setup
+ProjectFolder=D:\Projects\Homemade\Library
+ServerSideCab=
+File1=c:\TEMP\Setup\setup.exe
+File2=c:\TEMP\Setup\Setup.Lst
+File3=c:\TEMP\Setup\Library.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
