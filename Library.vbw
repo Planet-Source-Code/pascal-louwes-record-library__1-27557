@@ -1,0 +1,6 @@
+frmMain = 44, 44, 629, 462, C, 22, 22, 607, 440, C
+modDeclarations = 88, 88, 673, 506, Z
+modFunctions = 132, 132, 717, 550, 
+clsRecords = 66, 66, 695, 395, C
+modDBConnection = 66, 66, 651, 484, 
+clsQueries = 0, 0, 0, 0, C
